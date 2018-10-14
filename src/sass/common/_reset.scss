@@ -26,6 +26,12 @@ audio:not([controls]) {
   display: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  font-family: $secondary-font-family;
+}
+
 a {
   background-color: transparent;
 }
@@ -44,12 +50,7 @@ b,strong {
 
 dfn {
   font-style: italic;
-}
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
+} 
 
 mark {
   background: #ff0;

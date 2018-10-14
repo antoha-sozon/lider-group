@@ -1,0 +1,59 @@
+.footer {
+	.container {
+	    display: flex;  
+	    align-items: start;  
+	    justify-content: space-between; 
+	}
+	
+	div {
+		padding-right: 30px;
+		line-height: 1.7;
+		color: $grey;
+		width: 100%;
+	}
+
+	p {
+		line-height: 1.7;
+		color: $grey;
+	}
+
+	h4 {
+		font-size: 21px;
+		color: $dark-blue;
+	}
+}
+
+.footer-menu {
+	padding: 0;
+	margin: 0;
+	list-style: none; 
+
+	a {
+		color: $grey;
+
+		&:hover {
+
+			color: $dark-grey;
+		}
+	} 
+}
+
+.footer-block-location {
+	padding-top: 20px;
+}
+
+.footer-social {
+	i {
+		font-size: 20px;
+	}
+}
+
+.footer-block-5 {
+	text-align: center;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 12px;
+	line-height: 1;
+}
